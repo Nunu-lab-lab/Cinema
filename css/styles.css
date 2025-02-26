@@ -1,0 +1,51 @@
+@media(max-width: 767px) {
+    .carousel-item{
+        height: 80vh !important;
+    }
+    .media img{
+        width: 100% !important;
+        height: 50% !important;
+    }
+    .media{
+        height: 350px;
+    }
+} 
+.carousel-item{
+    height: 100vh;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+    z-index: 1 !important;
+}
+.fixed-bg, .ending-img{
+    height: 250px;
+    background-size: cover;
+}
+.fixed-bg{
+    background: url(../photos/bg.jpg) no-repeat center center fixed;
+}
+.ending-img{
+    background: url(../photos/fotor-ai-20250225235432.jpg) no-repeat center center fixed;
+}
+.movie-container .card img{
+    height: 375px;
+}
+.movie-container .card:hover .overlay{
+    animation: hoverEffect 0.5s forwards;
+}
+@keyframes hoverEffect{
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 100%;
+        height: 100%;
+    }
+}
+.honoring-section .card{
+    transition: 0.5s;
+}
+.honoring-section .card:hover{
+    transform: scale(0.92);
+}
